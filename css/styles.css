@@ -42,3 +42,47 @@ body {
 .material-icons{
   font-size: 56px;
 }
+
+@media only screen and (max-width: 990px){
+  body{
+    font-size: 14px;
+  }
+
+  .heading{
+    font-size: 28px;
+  }
+
+  .btn{
+    font-size: 14px;
+  }
+
+  .material-icons{
+    font-size: 36px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  body{
+    font-size: 12px;
+  }
+
+  .heading{
+    font-size: 24px;
+  }
+
+  .btn{
+    font-size: 12px;
+  }
+
+  .material-icons{
+    font-size: 28px;
+  }
+
+  .distance-label{
+    display: none;
+  }
+
+  input::placeholder{
+    font-size: 12px;
+  }
+}
