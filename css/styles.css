@@ -12,7 +12,7 @@ html {
 body {
   height: 100%;
   font-family: "Roboto", "Times New Roman", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
   color: #000000;
   background-color: white;
@@ -37,4 +37,8 @@ body {
   padding: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.material-icons{
+  font-size: 56px;
 }

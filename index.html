@@ -3,15 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>JS 5-dars</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="p-5">
   
-
+  
+  <div class="container">
+    <div class="exercise">
+      <h2 class="mb-5">Kim birinchi bo-rish-ga!</h2>
+      
+      <form class="distance-form w-50 mb-5 d-flex justify-content-between mx-auto bg-light p-5" action="https://echo.htmlacademy.ru" method="POST">
+        
+        <div class="form-group mb-0 row align-items-center">
+          <label class="m-0 col-5" for="dictance-input">Masofa</label>
+          <input class="form-control dictance-input col-7" type="number" id="dictance-input" name="dictance" placeholder="100km" step="any" required>
+        </div>
+        
+        <button class="btn btn-success px-5" type="submit">Hisobla</button>
+      </form>
+      
+      <div class="results row">
+        <div class="result col-3">
+          <div class="border rounded py-3">
+            <span class="d-block material-icons">directions_run</span>
+            <span class="d-block type">Piyoda</span>
+            <span class="d-block time">Soat</span>
+          </div>
+        </div>
+        <div class="result col-3">
+          <div class="border rounded py-3">
+            <span class="d-block material-icons">pedal_bike</span>
+            <span class="d-block type">Velosiped</span>
+            <span class="d-block time">Soat</span>
+          </div>
+        </div>
+        <div class="result col-3">
+          <div class="border rounded py-3">
+            <span class="d-block material-icons">directions_car</span>
+            <span class="d-block type">Mashina</span>
+            <span class="d-block time">Soat</span>
+          </div>
+        </div>
+        <div class="result col-3">
+          <div class="border rounded py-3">
+            <span class="d-block material-icons">flight</span>
+            <span class="d-block type">Samalyot</span>
+            <span class="d-block time">Soat</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
   <script src="js/script.js"></script>
 </body>
 </html>
