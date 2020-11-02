@@ -43,6 +43,10 @@ body {
   font-size: 56px;
 }
 
+.reslut{
+  display: block;
+}
+
 @media only screen and (max-width: 990px){
   body{
     font-size: 14px;
